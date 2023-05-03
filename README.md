@@ -1,4 +1,7 @@
 # esper-java-example
+
+### This repository contains a minimalist example of how to use the Esper Java SDK. The code provided can be used as a starting point for developing your own applications that leverage Esper's device SDK.
+
 ---
 ## \*\*Please Read Before Starting \*\*
 
@@ -9,22 +12,16 @@ After provisioning a device, you will also need to [generate an api key](https:/
 After completing these steps you can then proceed with this example. 
 
 ---
-### primitive example usage of the java sdk for esper
-
-This repository contains a minimalist example of how to use the Esper Java SDK. The code provided can be used as a starting point for developing your own applications that leverage Esper's device SDK.
-
----
-#### Clone the Repository
+### Clone the Repository
 
 To get started, clone this repository to your local machine using the following command:
 
 ```bash
-
 git clone https://github.com/ethinallen/java-sdk-example.git
 ```
 
 ---
-#### Configure Your API Key
+### Configure Your API Key
 
 Before you can run the example code, you will need to populate your API key in the MainActivity.java file. This file is located in the app/src/main/java/com/example/esper_java_example directory.
 
@@ -52,10 +49,12 @@ The code provided in this repository is the android studio `basic activity` temp
 
 To verify that the SDK is working correctly, look for logcat output with the tag "MainActivity". You should see messages indicating that the SDK initialized successfully and that it is able to retrieve the device temperature. 
 
+![](img/screenshot.png)
+> example logcat output; make sure to filter by `tag:MainActivity`
 
 If you do not see these messages, check that you have properly populated your API key and that you are connected to a device that has been provisioned in your Esper tenant.
 
 ---
-#### Support
+### Support
 
 If you encounter any issues or have questions about using the Esper Java SDK, please reach out to our support team at support@esper.io. We are happy to help you get started and answer any questions you may have.
