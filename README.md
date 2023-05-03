@@ -12,7 +12,7 @@ After provisioning a device, you will also need to [generate an api key](https:/
 After completing these steps you can then proceed with this example. 
 
 ---
-### Clone the Repository
+## Clone the Repository
 
 To get started, clone this repository to your local machine using the following command:
 
@@ -21,7 +21,7 @@ git clone https://github.com/ethinallen/java-sdk-example.git
 ```
 
 ---
-### Configure Your API Key
+## Configure Your API Key
 
 Before you can run the example code, you will need to populate your API key in the MainActivity.java file. This file is located in the app/src/main/java/com/example/esper_java_example directory.
 
@@ -38,7 +38,8 @@ String token = "<YOUR_API_KEY_HERE>";
 4. Save the file.
 
 ---
-#### Run the Example
+
+## Run the Example
 
 Once you have completed these steps, you are ready to run the example code.
 
@@ -55,6 +56,6 @@ To verify that the SDK is working correctly, look for logcat output with the tag
 If you do not see these messages, check that you have properly populated your API key and that you are connected to a device that has been provisioned in your Esper tenant.
 
 ---
-### Support
+## Support
 
 If you encounter any issues or have questions about using the Esper Java SDK, please reach out to our support team at support@esper.io. We are happy to help you get started and answer any questions you may have.
